@@ -1,0 +1,79 @@
+Body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #357215;
+    flex-direction: column;
+    font-family: "Twinkle Star", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #f8f8f8;
+}
+
+.botones {
+    margin-top: 20px;
+    
+}
+
+
+.si-boton {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease;
+    font-family: "Twinkle Star", serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+  
+.no-boton {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: .3s ease;
+    cursor: pointer;
+    font-family: "Twinkle Star", serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+.si-boton:hover {
+    border: 2px solid #338d36;
+    box-shadow: 0 0 10px #338d36;
+    color: #50a753;
+    background-color: #2d7530;
+    transform:translateY(-7px)
+}
+
+.no-boton:hover {
+    border: 2px solid #f72718;
+    box-shadow: 0 0 10px #f72718;
+    color: #f72718;
+    background-color: #b4160b;
+    transform:translateY(-7px) ;
+}
+
+.gif_contenedor img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
